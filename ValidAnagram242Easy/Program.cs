@@ -1,4 +1,6 @@
-﻿namespace ValidAnagram242Easy;
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace ValidAnagram242Easy;
 
 public class Solution {
     public static bool IsAnagram(string s, string t)
@@ -43,4 +45,11 @@ public class Solution {
         return true;
 
     }
+
+
+    public static bool IsAnagram3(string s, string t)
+    {
+        return string.Concat(s.OrderBy(c => c)) == string.Concat(t.OrderBy(c => c));
+    }
+    
 }
