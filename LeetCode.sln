@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicates217Easy",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagram242Easy", "ValidAnagram242Easy\ValidAnagram242Easy.csproj", "{CE6F9E85-CFEA-4036-9F29-52D037D10249}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams49Medium", "GroupAnagrams49Medium\GroupAnagrams49Medium.csproj", "{374C5E43-7E08-4D65-918A-63D82F9B915C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopKFrequentElements347Medium", "TopKFrequentElements347Medium\TopKFrequentElements347Medium.csproj", "{FE820F39-1F86-423B-95A2-598446C8004E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{CE6F9E85-CFEA-4036-9F29-52D037D10249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE6F9E85-CFEA-4036-9F29-52D037D10249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE6F9E85-CFEA-4036-9F29-52D037D10249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374C5E43-7E08-4D65-918A-63D82F9B915C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374C5E43-7E08-4D65-918A-63D82F9B915C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374C5E43-7E08-4D65-918A-63D82F9B915C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374C5E43-7E08-4D65-918A-63D82F9B915C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE820F39-1F86-423B-95A2-598446C8004E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE820F39-1F86-423B-95A2-598446C8004E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE820F39-1F86-423B-95A2-598446C8004E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE820F39-1F86-423B-95A2-598446C8004E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
